@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)setTitleLabel:(id)sender {
+    [myTitleLabel setText:@"Hello"];
+}
 @end
